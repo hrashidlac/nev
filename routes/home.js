@@ -1,10 +1,11 @@
 const express = require("express");
 const router = express.Router();
+const axios = require("axios");
 
 router.get("/", async (req, res, next) => {
   return res.status(200).json({
-    title: "This is a test",
-    message: "The app is working properly!",
+    song1title: "Express Testinggg",
+    song1votes: 'num',
   });
 });
 
