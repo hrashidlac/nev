@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
           song2_votes: restDB.data['SUM Song 2'],
           song3_name: songnames.data.fields[0].options[2].label,
           song3_artist: songnames.data.fields[0].options[2].value, 
-          song3_votes3: restDB.data['SUM Song 3'], 
+          song3_votes: restDB.data['SUM Song 3'], 
         });
     }));
 });
