@@ -6,3 +6,6 @@ Hosting express node project on vercel
 
 ### Deployed on
 > https://node-express-vercel-rose.vercel.app/home
+
+#### Runs on:
+http://127.0.0.1:3000/
